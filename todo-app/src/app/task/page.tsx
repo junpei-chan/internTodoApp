@@ -1,10 +1,10 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Task } from "../types/task"
-import { Table } from "../components/table"
-import { Button } from "../components/button"
-import { Modal } from "../components/modal"
+import { Task } from "@/app/types/task"
+import { Table } from "@/components/table"
+import { Button } from "@/components/button"
+import { Modal } from "@/components/modal"
 
 export default function Page() {
   const [tasks, setTasks] = useState<Task[]>([]);

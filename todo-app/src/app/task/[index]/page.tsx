@@ -2,9 +2,9 @@
 
 import { use, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Button } from "@/app/components/button";
+import { Button } from "@/components/button";
 import { Task } from "@/app/types/task";
-import { Modal } from "@/app/components/modal";
+import { Modal } from "@/components/modal";
 
 type Props = {
   params: Promise<{
